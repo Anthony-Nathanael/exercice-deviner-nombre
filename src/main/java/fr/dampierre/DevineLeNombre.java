@@ -13,6 +13,7 @@ public class DevineLeNombre{
         System.out.println("Je pense à un nombre entre 1 et 100 inclus. Devinez lequel");
         System.out.println("Entrer un nombre:");
         int proposition= scanner.nextInt();
+        // modification bidon
         System.out.println("Vous proposez:" + proposition);
         System.out.println("Le nombre auquel je pensais était:"+ nombreAdeviner);
         int ecart= Math.abs(nombreAdeviner-proposition);
